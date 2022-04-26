@@ -1,0 +1,16 @@
+initialize-----------
+mkdir name - make a directory
+cd dir_name - go to the directory
+git init - make a local directory
+git clone - clone a cloud directory to a local directory
+git status - check the current status
+add-------------
+git add --all/-A - staged all changes
+git add . - stagged all from current directory
+git add * - stagged all except deleted item
+git add file_name - stagged specific item of name
+git add dir_name/file_name - stagged spesific item from a specific directory
+git add *.txt - stagged all with specific extension except deleted item
+commit---------------
+
+git reset - undo all last changes
