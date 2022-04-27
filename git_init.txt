@@ -35,3 +35,9 @@ git checkout branch_name >> switched to the specific branch
 git merge branch_name >> merge the changes with a specific branch(say-main) from a specific branch. [Suppose you make some changes from a specific branch and switched to another branch and also make some changes. Now you wish to merge the changes. You have to merge from branch to main branch and vice versa. like-(branch to main) and (main to branch)][Merge Conflict- When more than one branches make changes in the same file or they make a same named file. In case of merge conflict, any of the branch have to make changes of their code.]
 
 push--------------
+git push >> push all changes to the remote directory (cloud)
+git push origin branch_name >> if you have more than one branch, you can push all to a specific branch. If you want to push to another branch you have to first checkout (switch) to the branch.
+
+fetch-------------
+git fetch >> fetch the changes from remote to local. After fetching you have to merge the change.
+git pull >> its fetch and merge at a time. [That means pull = fetch + merge]
