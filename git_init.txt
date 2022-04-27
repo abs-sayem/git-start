@@ -1,16 +1,37 @@
 initialize-----------
-mkdir name - make a directory
-cd dir_name - go to the directory
-git init - make a local directory
-git clone - clone a cloud directory to a local directory
-git status - check the current status
-add-------------
-git add --all/-A - staged all changes
-git add . - stagged all from current directory
-git add * - stagged all except deleted item
-git add file_name - stagged specific item of name
-git add dir_name/file_name - stagged spesific item from a specific directory
-git add *.txt - stagged all with specific extension except deleted item
-commit---------------
+mkdir name >> make a local directory
+cd dir_name >> go to the directory
+git init >> initialize the local directory
+git clone >> clone a cloud directory to a local directory
+git status >> check the current status
 
-git reset - undo all last changes
+add-------------
+git add --all/-A >> staged all changes
+git add . >> stagged all from current directory
+git add * >> stagged all except deleted item
+git add file_name >> stagged specific item of name
+git add dir_name/file_name >> stagged spesific item from a specific directory
+git add *.txt >> stagged all with specific extension except deleted item
+
+commit---------------
+git commit -m "comment" >> save all the changes with comment on changes
+
+reset----------------
+git reset >> undo all last changes. [it only retrive the changes, cannot retrive the deleted file]
+git reset HEAD~ >> undo all last changes even after commit. It takes back you initialization, you have to stagged again. (*Generally, you cannot reset after commit)
+git reset --hard >> undo all the recent changes also can retrive last deleted file
+
+remove------------
+git rm file_name >> removed the file also stagged
+git rm file_name -f >> it forcely remove the file even after making change.
+git rm cached file_name >> id donot delete the actual file but stagged the the change to be commited
+git rm folder_name >> remove a specific folder
+git rm -r folder_name >> recursively remove all the corresponding folders
+
+branch------------
+git branch >> checks how many branch are there now
+git branch branch_name >> make a branch
+git checkout branch_name >> switched to the specific branch
+git merge branch_name >> merge the changes with a specific branch(say-main) from a specific branch. [Suppose you make some changes from a specific branch and switched to another branch and also make some changes. Now you wish to merge the changes. You have to merge from branch to main branch and vice versa. like-(branch to main) and (main to branch)][Merge Conflict- When more than one branches make changes in the same file or they make a same named file. In case of merge conflict, any of the branch have to make changes of their code.]
+
+push--------------
