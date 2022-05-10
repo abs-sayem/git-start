@@ -37,6 +37,7 @@ git merge branch_name >> merge the changes with a specific branch(say-main) from
 push--------------
 git push >> push all changes to the remote directory (cloud)
 git push origin branch_name >> if you have more than one branch, you can push all to a specific branch. If you want to push to another branch you have to first checkout (switch) to the branch.
+git push --force >> it will forcly push the updates
 
 fetch-------------
 git fetch >> fetch the changes from remote to local. After fetching you have to merge the change.
