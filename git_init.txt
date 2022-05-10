@@ -2,7 +2,7 @@ initialize-----------
 mkdir name >> make a local directory
 cd dir_name >> go to the directory
 git init >> initialize the local directory
-git clone >> clone a cloud directory to a local directory
+git clone directory_link >> clone a cloud directory to a local directory
 git status >> check the current status
 
 add-------------
