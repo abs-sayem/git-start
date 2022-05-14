@@ -10,6 +10,7 @@ git add --all/-A >> staged all changes
 git add . >> stagged all from current directory
 git add * >> stagged all except deleted item
 git add file_name >> stagged specific item of name
+git add <file>... >> to update what will be committed)
 git add dir_name/file_name >> stagged spesific item from a specific directory
 git add *.txt >> stagged all with specific extension except deleted item
 
@@ -27,6 +28,9 @@ git rm file_name -f >> it forcely remove the file even after making change.
 git rm cached file_name >> id donot delete the actual file but stagged the the change to be commited
 git rm folder_name >> remove a specific folder
 git rm -r folder_name >> recursively remove all the corresponding folders
+
+restore-----------
+git restore <file>... >> to discard changes in working directory
 
 branch------------
 git branch >> checks how many branch are there now
