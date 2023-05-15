@@ -58,3 +58,5 @@ git fetch >> fetch the changes from remote to local. After fetching you have to 
 git pull >> its fetch and merge at a time. [That means pull = fetch + merge]
 
 add_images-----------
+> Put the images to the file directory or Create a directory in the file directory and keep the images in the new directory.
+![image_description_name](directory/image_name.extension) - ![problem](problem_images/stagged_cimmited_but_cannot_pushed.PNG)
