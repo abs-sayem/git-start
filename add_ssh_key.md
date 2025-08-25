@@ -38,3 +38,27 @@ The main purpose of this key is to make you able to clone the git repositories i
 ---
 
 # Config SSH Key for Multiple Git Account
+
+## Start OpenSSH Authentication Agent
+- Search for **services** in windows search and open it.
+- Find **OpenSSH Authetication Agent Properties** and open it by double click.
+- Set Startup type to **Automatic**, then click **Start**.
+- **Apply** then **Ok** and close the window.
+
+## Generate SSH Key for 1st Account
+Open **Git Bash** and follow the following steps:
+#### Create a SSH Key:
+    ```cmd
+        ssh-keygen
+    ```
+- It will create two files: `id-rsa` and `id_rsa.pub` if don't existed. `ls` to see the files in the **.ssh/** directory.
+#### See and Copy the key:
+    ```cmd
+        cat id_rsa.pub
+    ```
+- This will show key associated key with the `id_rsa.pub` file. Copy the key.
+#### Add SSH Key to GitHub Account
+- Go to GitHub Account --> **Setting** --> **SSH and GPG keys** --> **New SSH Key**
+- Place and title and paste the key and hit Add SSH key
+
+> Now check cloning git repository using ssh link, make changes and try pushing the changes. This should perfectly work for account one.
