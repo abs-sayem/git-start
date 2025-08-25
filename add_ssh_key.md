@@ -33,4 +33,4 @@ The main purpose of this key is to make you able to clone the git repositories i
 - Go to GitHub Account --> **Setting** --> **SSH and GPG keys** --> **New SSH Key**
 - Place and title and paste the key and hit Add SSH key
 
-> Now you can clone repositories locally using ssh link and maintain them.
+**`Now you can clone repositories locally using ssh link and maintain them.`**
