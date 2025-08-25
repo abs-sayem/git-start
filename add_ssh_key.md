@@ -28,3 +28,7 @@ The main purpose of this key is to make you able to clone the git repositories i
         code id_rsa.pub
     ```
 - It will open the file in VS Code and you can see the key there.
+
+## Add SSH Key to GitHub Account
+- Go to GitHub Account --> **Setting** --> **SSH and GPG keys** --> **New SSH Key**
+- Place and title and paste the key and hit Add SSH key
