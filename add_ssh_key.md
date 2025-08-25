@@ -49,15 +49,15 @@ The main purpose of this key is to make you able to clone the git repositories i
 Open **Git Bash** and follow the following steps: (All the files will be created in **.ssh** folder).
 
 #### Create a SSH Key:
-    ```cmd
-        ssh-keygen
-    ```
+```cmd
+    ssh-keygen
+```
 - It will create two files: `id-rsa` and `id_rsa.pub` if don't existed. `ls` to see the files in the **.ssh/** directory.
 
 #### See and Copy the key:
-    ```cmd
-        cat id_rsa.pub
-    ```
+```cmd
+    cat id_rsa.pub
+```
 - This will show key associated key with the `id_rsa.pub` file. Copy the key.
 
 #### Add SSH Key to GitHub Account
@@ -65,9 +65,9 @@ Open **Git Bash** and follow the following steps: (All the files will be created
 - Place a title, paste the key and hit Add SSH key
 
 #### Create and Configure a config File
-    ```cmd
-        notepad config
-    ```
+```cmd
+    notepad config
+```
 - This will create a `config.txt` file and open it. Add the information in the config file:
     ```code
         #Accouont1
@@ -97,9 +97,9 @@ Open **Git Bash** and follow the following steps: (All the files will be created
 - `This time we have to give the file name.` Otherwise it will try to generate another key in the same name previously created for the 1st account and ask us to replace first one.
 
 #### See and Copy the key:
-    ```cmd
-        cat acc2_id_rsa.pub
-    ```
+```cmd
+    cat acc2_id_rsa.pub
+```
 - This will show key associated key with the `acc2_id_rsa.pub` file. Copy the key.
 
 #### Add SSH Key to GitHub Account
@@ -129,3 +129,5 @@ Open **Git Bash** and follow the following steps: (All the files will be created
         git@github.com-acc2:acc_name/repo_name.git
     ```
 - **We have to maintain this change everytime we clone any repo from 2nd account.**
+
+---
