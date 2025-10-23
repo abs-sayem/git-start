@@ -120,13 +120,17 @@ Open **Git Bash** and follow the following steps: (All the files will be created
     ```
 
 #### Cloning Repository from 2nd Account [Important]
-- While cloning any repository from 2nd account the link is like -
+- While cloning any repository from primary account the link is like -
     ```link
         git@github.com:acc_name/repo_name.git
     ```
 - We have to change the host name `github.com` to `github.com-aac2`, like -
     ```link
         git@github.com-acc2:acc_name/repo_name.git
+    ```
+- For Example: (for **asl-rnd** account in my personal device)
+    ```link
+        git@github.com-aslrnd:acc_name/repo_name.git
     ```
 - **We have to maintain this change everytime we clone any repo from 2nd account.**
 
