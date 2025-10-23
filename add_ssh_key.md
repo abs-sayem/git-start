@@ -128,10 +128,10 @@ Open **Git Bash** and follow the following steps: (All the files will be created
     ```link
         git@github.com-acc2:acc_name/repo_name.git
     ```
-- For Example: (for **asl-rnd** account in my personal device)
-    ```link
-        git@github.com-aslrnd:acc_name/repo_name.git
-    ```
+    - For Example: (to clone repo from **asl-rnd** account in my personal device)
+        ```link
+            git@github.com-aslrnd:acc_name/repo_name.git
+        ```
 - **We have to maintain this change everytime we clone any repo from 2nd account.**
 
 ---
